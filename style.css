@@ -11,7 +11,7 @@ body{
 
 .header{
     width: 1345px;
-    height: 1122px;
+    height: 1082px;
     /* border: 2px solid red; */
     background-color: #fff4e7;
     
@@ -78,7 +78,7 @@ body{
 /* Bannar section styles */
 .banner{
     text-align: center;
-    margin-top: 250px;
+    margin-top: 108px;
 }
 
 .banner h1{
@@ -116,7 +116,7 @@ body{
 /* Bannar section responsive */
 @media screen and (max-width: 576px){
     .header{
-        height: 2420px;
+        height: 2306px;
     }
 
     .banner h1{
@@ -140,4 +140,87 @@ body{
     }
 }
 
+/* quick list section styles */
+.quick-list{
+    width: 970px;
+    height: 505px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
 
+.quick-list-img img{
+    width: 240px;
+    padding: 3px; 
+}
+
+.quick-list-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.quick-list-text h1  {
+    margin-right: 145px;
+    font-size: 35px;
+}
+
+.button{
+    margin-right: 276px;
+}
+
+.quick-list-text p{
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
+.black-off{
+    color: #727272;
+}
+
+.black{
+   color: #000000; 
+}
+
+.yellow{
+    color: #fb910e;
+}
+
+/* quick list section responsive */
+@media screen and (max-width: 576px){
+    .quick-list{
+        flex-direction: column;
+        margin: 0 188px;
+        margin-top: 230px;
+    }
+
+    .quick-list-img img{
+        width: 476px;  
+    }
+    .quick-list-text{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .quick-list-text h1  {
+        margin: 0 0;
+        font-size: 88px;
+        margin-top: 86px;
+    }
+    
+    .quick-list-text p{
+        font-size: 55px;
+        margin: 45px 0;
+    }
+
+    .button{
+        margin: 20px 0;
+        
+    }
+}
